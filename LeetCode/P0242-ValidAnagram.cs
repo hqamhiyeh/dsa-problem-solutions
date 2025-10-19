@@ -1,7 +1,9 @@
 // 242. Valid Anagram
 
-public class Solution {
-    public bool IsAnagram(string s, string t) {
+public class Solution
+{
+    public bool IsAnagram(string s, string t)
+    {
         if(s.Length != t.Length)
             return false;
 

@@ -1,7 +1,9 @@
 // 3. Longest Substring Without Repeating Characters
 
-public class Solution {
-    public int LengthOfLongestSubstring(string s) {
+public class Solution
+{
+    public int LengthOfLongestSubstring(string s)
+    {
         var answer = 0;
         var dict = new Dictionary<char,int>();
         for(int i = 0; i < s.Length; i++)
